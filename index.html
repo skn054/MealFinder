@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meal Finder</h1>
+      <div class="dish__container">
+        <form class="dish__container" id="submit">
+          <input type="text" placeholder="search for meals or keywords" id="search"/>
+          <button class="search-btn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <button class="random-btn">
+          <i class="fas fa-random"></i>
+        </button>
+      </div>
+    </div>
+    <section>
+        <div id="meals__header" class="meals__header"></div>
+        <div id="meals" class="meals"></div>
+    </section>
+    <section class="singel__meal-container">
+                            
+        <div id="single_meal" class="single_meal"></div>
+        <!-- <img src="" alt="">
+        <div id="single_meal-header" class="single_meal-header">
+            <p></p>
+            <p></p>
+        </div>
+        <div>
+            <p id="single_meal-instructions"></p>
+        </div>
+        <div>
+            <p id="single_meal-ingredients"></p>
+        </div> -->
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
